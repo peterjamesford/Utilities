@@ -1,3 +1,7 @@
+.btn_container {
+	margin: 20px 0;
+}
+
 .btn {
 	font-family: 'Work Sans', sans-serif;
 	width: 300px;
@@ -11,6 +15,17 @@
 	background: -ms-linear-gradient(left, rgba(235,233,249,1) 0%, rgba(216,208,239,1) 37%, rgba(206,199,236,1) 78%, rgba(193,191,234,1) 100%);
 	background: linear-gradient(to right, rgba(235,233,249,1) 0%, rgba(216,208,239,1) 37%, rgba(206,199,236,1) 78%, rgba(193,191,234,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9', endColorstr='#c1bfea', GradientType=1 );
+}
+
+.red_grad {
+	background: rgba(248,80,50,1);
+	background: -moz-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 0%, rgba(232,30,12,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(248,80,50,1)), color-stop(0%, rgba(241,111,92,1)), color-stop(100%, rgba(232,30,12,1)));
+	background: -webkit-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 0%, rgba(232,30,12,1) 100%);
+	background: -o-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 0%, rgba(232,30,12,1) 100%);
+	background: -ms-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 0%, rgba(232,30,12,1) 100%);
+	background: linear-gradient(to right, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 0%, rgba(232,30,12,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e81e0c', GradientType=1 );
 }
 
 .btn_name { 
